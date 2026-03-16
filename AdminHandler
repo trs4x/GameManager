@@ -64,14 +64,14 @@ settings.Ranks = {
 		
 	    ["Head Staff"] = {
 	    	Level = 1800;
-		Users = { "dnwettis", "CaIIMeXIXO"
+		Users = { "", ""
 			--// Add users here
      		};
 		};
 		
-		["n03x"] = {
+		["Nonetz"] = {
 			Level = 10000; --// Anything 900 or higher will be considered a creator and will bypass all perms & be allowed to edit settings in-game.
-		    Users = { "itsmedhoa", "ngdaiclone22x"
+		    Users = { "XxLilytmgxX", ""
 				--// Add users here (Also, don't forget quotations and all that)
 			};
 		
