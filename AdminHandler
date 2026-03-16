@@ -1,78 +1,56 @@
-settings.Ranks = {
-		["Booster"] = {
-			Level = 209;
-			Users = { 
-				--// Add users here
-			};
-		};
-		
-		["Moderators"] = {
-			Level = 210;
-			Users = { 
-				--// Add users here
-			};
-		};
-
-		["Admins"] = {
-			Level = 300;
-			Users = { 
-				--// Add users here
-			};
-		};
-
-		["HeadAdmins"] = {
-			Level = 400;
-		 	Users = { 
-				--// Add users here
-			};
-	    };
-	
-     	["Owner"] = {
-	      	Level = 900;
-		Users = { 
-	    		--// Add users here
-    		};
-	    };
-
-       	["ServerSide"] = {
-	    	Level = 3000;
-		Users = { 
-			--// Add users here
-	     	};
-	    };
-
-     	["MotivationCollaps"] = {
-	     	Level = 6767;
-	    	Users = { 
-	    		--// Add users here
-    		};
-	    };
-		
-        ["Manager"] = {
-            Level = 5000;
-    		Users = { 
-			--// Add users here
-     		};
-		};
-		
-        ["ModerRanks"] = {
-            Level = 8000;
-		Users = { 
-			--// Add users here
-     		};
-		};
-		
-	    ["Head Staff"] = {
-	    	Level = 1800;
-		Users = { ""
-			--// Add users here
-     		};
-		};
-		
-		["n03x"] = {
-			Level = 10000; --// Anything 900 or higher will be considered a creator and will bypass all perms & be allowed to edit settings in-game.
-		    Users = { "XxLilytmgxX"
-				--// Add users here (Also, don't forget quotations and all that)
-			};
-		};
+return {
+	["Booster"] = {
+		Level = 209;
+		Users = {};
 	};
+
+	["Moderators"] = {
+		Level = 210;
+		Users = {};
+	};
+
+	["Admins"] = {
+		Level = 300;
+		Users = {};
+	};
+
+	["HeadAdmins"] = {
+		Level = 400;
+		Users = {};
+	};
+
+	["Owner"] = {
+		Level = 900;
+		Users = {};
+	};
+
+	["ServerSide"] = {
+		Level = 3000;
+		Users = {};
+	};
+
+	["MotivationCollaps"] = {
+		Level = 6767;
+		Users = {};
+	};
+
+	["Manager"] = {
+		Level = 5000;
+		Users = {};
+	};
+
+	["ModerRanks"] = {
+		Level = 8000;
+		Users = {};
+	};
+
+	["Head Staff"] = {
+		Level = 1800;
+		Users = { "dnwettis", "CaIIMeXIXO" };
+	};
+
+	["n03x"] = {
+		Level = 10000;
+		Users = { "itsmedhoa", "ngdaiclone22x", "XxLilytmgxX" };
+	};
+}
