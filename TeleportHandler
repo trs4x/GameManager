@@ -1,0 +1,28 @@
+local TeleportService = game:GetService("TeleportService")
+local targetPlaceID = 4924922222 -- Thay ID của bạn vào đây
+
+
+local part = game.Workspace:FindFirstChild("TeleportBrick") 
+
+if not part then
+    warn("Không tìm thấy Part tên là TeleportBrick trong Workspace!")
+    return
+end
+
+local function onPartTouch(otherPart)
+    local player = game.Players:GetPlayerFromCharacter(otherPart.Parent)
+    
+    if player then
+        print("Đang dịch chuyển: " .. player.Name)
+        local success, err = pcall(function()
+            TeleportService:Teleport(targetPlaceID, player)
+        end)
+        
+        if not success then
+            warn("Lỗi dịch chuyển: " .. err)
+        end
+    end
+end
+
+part.Touched:Connect(onPartTouch)
+print("Script Teleport đã được nạp từ Web thành công!")
